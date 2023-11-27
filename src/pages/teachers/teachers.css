@@ -1,0 +1,41 @@
+.react-swiper__swiper {border: 10px solid}
+
+.teacher_image_div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher_image {
+    width: 350px;
+    height: 350px;
+
+}
+
+.info_about_teacher {
+    margin-left: 15%;
+    margin-right: 63px;
+    margin-bottom: 5%;
+}
+
+.teacher_name {
+    display: table-caption;
+    font-size: 2rem;
+    font-family: "Hoefler Text", sans-serif;
+    margin-top: 6%;
+}
+
+
+.teacher_special {
+    color: gray;
+    font-size: 1.2rem;
+    font-family: "Avenir Next", serif;
+    margin-top: 2%;
+}
+
+.teacher_description {
+    font-family: "Avenir Next", serif;
+    font-size: 1.4rem;
+    margin-top: 9%;
+}

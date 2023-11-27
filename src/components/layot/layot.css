@@ -1,0 +1,201 @@
+.navigation-button {
+    border: none;
+    background: none;
+    padding: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    height: 30px;
+    width: auto;
+}
+
+.navigation-button:hover {
+    color: rgb(115, 115, 121);
+}
+
+.info_about_header {
+    position: absolute;
+    right: 50px;
+    top: 2px;
+    display: flex;
+    flex-flow: column;
+    max-height: 120px;
+    color: white;
+    font-family: "Avenir Next", sans-serif;
+}
+
+.links_container_header, .links_container_footer {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.info_name_header, .info_name_footer {
+    font-size: 0.8rem;
+    margin-top: 8px;
+}
+
+.title_header_first {
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    transform: translateY(25%) translateX(-25%);
+}
+
+.title_header_second {
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    font-size: 3rem;
+    transform: translateY(-25%) translateX(-25%);
+}
+
+.title_header_first br, .navigation-button br {
+    display: none;
+}
+
+.button-row {
+    position: absolute;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-height: 60px;
+    bottom: 10px;
+}
+
+.link_column {
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+.footer-button {
+    border: none;
+    background: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: underline white solid;
+    height: 25px;
+    text-align: left;
+    width: auto;
+    padding: 13px;
+}
+
+.header_emblem {
+    width: 250px;
+}
+
+.soc_network_img {
+    height: 30px;
+    width: 30px;
+    margin-top: 0;
+}
+
+.select_header {
+    display: none;
+}
+
+.select_header .__select__title {
+    color: white;
+    text-align: center;
+    font-size: 1.9rem;
+    padding-top: 5px;
+    border: none;
+    position: absolute;
+    left: 0;
+}
+.select_header .__select {
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+.select_header .__select__content {
+    width: 105%;
+    position: absolute;
+    left: 17px;
+}
+
+.link_select {
+    width: 100%;
+    font-size: 1rem;
+    height: 40px;
+    text-decoration: none;
+    border-bottom: 1px solid #c7ccd1;
+    color: black;
+    padding-left: 30px;
+}
+
+.link_select:hover {
+    background: #c7ccd1;
+}
+
+@media screen and (max-width: 900px) {
+    .links_container_header {
+        display: flex;
+        flex-flow: column;
+        font-size: 0.7rem;
+    }
+    .info_about_header {
+        right: 10px;
+        top: 10px;
+        flex-flow: column wrap-reverse;
+    }
+    .info_name_header {
+        font-size: 0.6rem;
+    }
+    .links_container_footer {
+        font-size: 0.7rem;
+    }
+    .info_name_footer {
+        font-size: 0.7rem;
+    }
+    .navigation-button {
+        font-size: 0.8rem;
+        height: 30px;
+        padding: 10px;
+    }
+    .link_column {
+        font-size: 0.5rem;
+    }
+    .select_header {
+        display: initial;
+        position: absolute;
+        bottom: -10px;
+        width: 10%;
+        right: 20px;
+    }
+    .button-row {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .title_header_first {
+        transform: translateY(-45%) translateX(75%);
+        font-size: 1rem;
+    }
+    .title_header_second {
+        transform: translateY(-105%) translateX(75%);
+        font-size: 0.8rem;
+    }
+    .title_header_first br, .navigation-button br {
+        display: initial;
+    }
+    .header_emblem {
+        width: 130px;
+        position: absolute;
+        top: 50px
+    }
+    .soc_network_img {
+        width: 20px;
+        height: 20px;
+    }
+}
+

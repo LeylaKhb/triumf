@@ -1,0 +1,48 @@
+.swiper_and_info {
+    display: flex;
+    margin-top: 40px;
+}
+
+.info_location {
+    display: flex;
+    flex-flow: column;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.swiper_how_to_fond {
+    width: 450px;
+}
+
+.title_info_location {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.desc_info_location {
+    font-size: 1rem;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+}
+
+.link_location {
+    text-decoration: none;
+    color: #0E294B;
+}
+
+@media screen and (max-width: 920px) {
+    .swiper_and_info {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .info_location {
+        margin-left: 10px;
+    }
+
+    .swiper_how_to_fond {
+        width: 350px;
+    }
+}

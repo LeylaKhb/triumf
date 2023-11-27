@@ -1,0 +1,13 @@
+.image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*overflow: hidden;*/
+    width: 100%;
+}
+
+.post_content {
+    white-space: pre-wrap;
+    line-height: 1.5;
+    margin: 30px 15px 50px;
+}

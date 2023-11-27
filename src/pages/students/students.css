@@ -1,0 +1,34 @@
+.students_grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.link_to_all_students {
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 20px;
+    border: solid 1px #DCDCDC;
+    border-radius: 5px;
+}
+
+.students_photo {
+    width: 275px;
+    height: 155px;
+}
+
+.students_photo_caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Avenir Next", serif;
+    font-size: 1.4rem;
+    color: #0E294B;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width: 300px) {
+    .link_to_all_students {
+        margin: auto;
+    }
+}

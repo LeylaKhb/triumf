@@ -1,0 +1,55 @@
+.swiper-container {
+    width: 480px;
+}
+
+@media screen and (min-width: 640px) {
+    .swiper-container {
+        width: 640px;
+    }
+}
+
+.student_image_div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student_image {
+    width: 350px;
+    height: 490px;
+}
+
+.info_about_student {
+    margin-left: 17%;
+    margin-right: 63px;
+    margin-bottom: 5%;
+}
+
+.student_name {
+    display: table-caption;
+    font-size: 2rem;
+    font-family: "Hoefler Text", sans-serif;
+    margin-top: 6%;
+}
+
+
+.student_special {
+    color: gray;
+    font-size: 1.2rem;
+    font-family: "Avenir Next", serif;
+    margin-top: 2%;
+}
+
+.student_study {
+    font-family: "Avenir Next", serif;
+    font-size: 1.4rem;
+    margin-top: 9%;
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-container {
+        width: 768px;
+    }
+}
+
