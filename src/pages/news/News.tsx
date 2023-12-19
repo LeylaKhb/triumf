@@ -4,6 +4,7 @@ import "./news.css"
 import {Link} from "react-router-dom";
 import {news} from "../../constants/newList";
 import ReactPaginate from 'react-paginate';
+import Helmet from "react-helmet";
 
 
 const items = news.map((newsContent, index) => (
@@ -41,6 +42,9 @@ const News:React.FC<NewsProps> = ({itemsPerPage}) => {
 
     return (
         <div className="page_content">
+            <Helmet
+                title="Новости"
+            />
             <div className="page_name">
                 Новости
             </div>

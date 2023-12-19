@@ -12,15 +12,15 @@ const Footer: React.FC<FooterProps> = () => {
         <footer style={{ position: 'relative' }}>
             <div className="footer-container" style={{ backgroundColor: '#0E294B', height: '220px', backgroundSize: 'cover', backgroundPosition: 'center', display: 'flex', flexFlow: 'row', justifyContent: 'space-around' }}>
                 <div className="footer-column" style={{ display: 'flex', flexFlow: 'column', paddingTop: 20, paddingLeft: 10, width: '160px'}}>
-                    <Link to="/" style={{transform: 'translateY(15%) translateX(-7%)'}}>
+                    <Link to="/" style={{transform: 'translateY(15%) translateX(17%)'}}>
                         <EmblemHeader />
                     </Link>
 
-                    <h1 style={{ textAlign: 'center', width: '10%', height: '10%', color: '#ffffff', fontSize: '0.65rem', transform: 'translateY(45%) translateX(15%)' }}>
+                    <h1 style={{ textAlign: 'center', width: '120%', height: '10%', color: '#ffffff', fontSize: '0.8rem', transform: 'translateY(45%) translateX(-5%)' }}>
                         ГИЛЬДИЯ РЕПЕТИТОРОВ
                     </h1>
 
-                    <h1 style={{ textAlign: 'center', width: '10%', height: '10%', color: '#ffffff', fontSize: '1.8rem', transform: 'translateY(-35%) translateX(15%)' }}>
+                    <h1 className="footer_header_second">
                         ТРИУМФ
                     </h1>
                 </div>

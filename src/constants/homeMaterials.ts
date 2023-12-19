@@ -1,24 +1,27 @@
-import students2021_all from "../static/students/2021/students2021_all.webp";
-import students2019_all from "../static/students/2017/students2017_all.webp";
+import students2019_all from "../static/students2023_all.jpg";
 import image3 from "../static/location/image3.jpg"
 import image1 from "../static/location/image1.jpg"
 import girl from "../static/reviews/girl.webp";
 import boy from "../static/reviews/boy.webp";
+import home1 from "../static/home1.jpg"
+import home2 from "../static/home2.jpg"
+import home3 from "../static/home3.jpg"
+
 
 export const homePhoto = [
     {
         link: "/about",
-        image: image3,
+        image: home1,
         title: 'Гильдия основана в  2013 году как профессиональное сообщество преподавателей ведущих казанских университетов',
     },
     {
         link: "/teachers",
-        image: students2019_all,
+        image: home2,
         title: 'Сильная команда преподаватей с большим педагогическим стажем, а также консультации психолога (в том числе и по вопросам профориентации)',
     },
     {
         link: "/exam-preparation",
-        image: image3,
+        image: home3,
         title: 'Занятия проводятся в группах по 3-5 человек (усиленной подготовки), консультации – индивидуально',
     },
     {

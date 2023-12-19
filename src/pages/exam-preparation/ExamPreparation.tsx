@@ -2,12 +2,16 @@ import React from 'react';
 import "./exam-preparation.css"
 import pdf_icon from "../../static/examPreparation/pdf_icon.webp"
 import doc_icon from "../../static/examPreparation/doc_icon.webp"
+import Helmet from "react-helmet";
 
 interface ExamPreparationProps {}
 
 export const ExamPreparation: React.FC<ExamPreparationProps> = () => {
     return (
         <div className="page_content">
+            <Helmet
+                title="Подготовка к экзаменам"
+            />
             <div className="page_name">
                 Подготовка к экзаменам
             </div>

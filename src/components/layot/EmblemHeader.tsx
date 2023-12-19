@@ -2,7 +2,7 @@ import React from 'react';
 
 interface EmblemHeaderProps {}
 
-export const EmblemHeader: React.FC<EmblemHeaderProps> = ({ }) => {
+export const EmblemHeader: React.FC<EmblemHeaderProps> = () => {
     return (
         <div>
             <svg style={{ width: '55%', height: '55%', transform: 'translateX(15%) translateY(-10%)' }} preserveAspectRatio="xMidYMid meet" data-bbox="0 0.011 8604.737 7205.9" viewBox="0 0.011 8604.737 7205.9" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" data-type="color" role="presentation" aria-hidden="true">

@@ -1,11 +1,15 @@
 import React from 'react';
 import './about.css';
+import Helmet from "react-helmet";
 
 interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
     return (
         <div className='page_content' >
+            <Helmet
+                title="О нас"
+            />
             <div className="page_name">
                 О нас
             </div>

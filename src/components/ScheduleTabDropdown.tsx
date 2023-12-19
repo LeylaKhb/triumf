@@ -7,14 +7,14 @@ import "../styles/dropdown.scss"
 
 interface ScheduleProps {}
 
-export const ScheduleTabDropdown: React.FC<ScheduleProps> = ({ }) => {
+export const ScheduleTabDropdown: React.FC<ScheduleProps> = () => {
     const [value, setValue] = useState(0);
     const [open, setOpen] = useState("");
     const week = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
 
     function handleSelectTitle(e: React.MouseEvent) {
-        if (open == "") setOpen("active")
-        if (open == "active") setOpen("")
+        if (open === "") setOpen("active")
+        if (open === "active") setOpen("")
     }
 
     return (

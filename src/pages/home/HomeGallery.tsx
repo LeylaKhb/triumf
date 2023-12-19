@@ -28,16 +28,14 @@ const HomeGallery:React.FC<HomeGalleryProps> = () => {
             {homePhoto.map((homePhotoContent, index) => (
                 <SwiperSlide key={index} style={{  flexFlow: "column", display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '100%'}}>
 
-                    <div className="home_gallery_img_div" style={{
-                        backgroundImage: `url(${homePhotoContent.image})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '700px', width: '100vw', minWidth: '100vw'}}>
-                        <div className="home_gallery_title" >
-                            {homePhotoContent.title}
-                        </div>
-                        <div className="home_gallery_link">
-                            <Link to={homePhotoContent.link} style={{ color: "white"}}>
-                                Подробнее →
-                            </Link>
-                        </div>
+                    <img className="home_gallery_img_div" src={homePhotoContent.image} alt={homePhotoContent.title} />
+                    <div className="home_gallery_title" >
+                        {homePhotoContent.title}
+                    </div>
+                    <div className="home_gallery_link">
+                        <Link to={homePhotoContent.link} style={{ color: "white"}}>
+                            Подробнее →
+                        </Link>
                     </div>
 
                 </SwiperSlide>

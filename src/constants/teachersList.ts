@@ -1,10 +1,11 @@
 import teacher1 from "../static/teachers/teacher1.jpg";
-import teacher2 from "../static/teachers/teacher2.jpg";
 import teacher3 from "../static/teachers/teacher3.jpg";
 import teacher4 from "../static/teachers/teacher4.jpg";
 import teacher5 from "../static/teachers/teacher5.jpg";
 import teacher6 from "../static/teachers/teacher6.jpg";
 import teacher7 from "../static/teachers/teacher7.jpg";
+import teacher8 from "../static/teachers/teacher8.jpeg";
+
 
 export const teachers = [
     {
@@ -15,15 +16,6 @@ export const teachers = [
         photo: teacher1,
         description:
             "кандидат педагогических наук, доцент, преподаватель русского языка, в том числе русского языка как иностранного",
-    },
-    {
-        id: 2,
-        name: "Исаева Лариса Борисовна",
-        ageWork: 6,
-        special: "Репетитор по химии",
-        photo: teacher2,
-        description:
-            "директор по развитию, кандидат химических наук, доцент",
     },
     {
         id: 3,
@@ -69,5 +61,15 @@ export const teachers = [
         photo: teacher7,
         description:
             "преподаватель психологии, консультант по профориентации, кандидат психологических наук"
+    },
+
+    {
+        id: 8,
+        name: "Филатов Иван Александрович",
+        ageWork: 6,
+        special: "Репетитор по обществознанию",
+        photo: teacher8,
+        description:
+            "преподаватель-консультант по обществознанию",
     },
 ];

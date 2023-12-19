@@ -4,6 +4,7 @@ import postsContent from "../../constants/postsContentList";
 import {Swiper,  SwiperSlide} from 'swiper/react';
 import {Autoplay, Navigation, Pagination, Keyboard} from 'swiper/modules';
 import "./post.css"
+import Helmet from "react-helmet";
 
 interface PostProps {}
 
@@ -14,6 +15,9 @@ export const Post: React.FC<PostProps> = () => {
     const post = postsContent[+postId - 1];
     return (
         <div className="page_content">
+            <Helmet
+                title={post.title}
+            />
             <div className="page_name">
                 {post.title}
             </div>

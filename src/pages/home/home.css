@@ -65,21 +65,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 700px;
+    object-fit: cover;
 }
-
 .home_gallery_title {
     font-family: "Avenir Next", sans-serif;
     position: absolute;
-    bottom: 80px;
+    bottom: 90px;
     text-align-last: center;
     color: white;
-    text-shadow: 0.5px 0 0.5px #0E294B,
-    0 0.5px 0.5px #0E294B,
-    -0.5px 0 0.5px #0E294B,
-    0 -0.5px 0.5px #0E294B;
+    text-shadow: 1px 0 1px #0E294B,
+    0 1px 1px #0E294B,
+    -1px 0 1px #0E294B,
+    0 -1px 1px #0E294B;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-left: 20%;
     padding-right: 20%;
     line-height: 1.4;

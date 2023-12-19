@@ -20,11 +20,11 @@ const Header: React.FC<HeaderProps> = () => {
     const [open, setOpen] = useState("");
     const [hidden, setHidden] = useState(true);
     function handleSelectTitle(e: React.MouseEvent) {
-        if (open == "") {
+        if (open === "") {
             setOpen("active");
             setHidden(false);
         }
-        if (open == "active") {
+        if (open === "active") {
             setHidden(true);
             setOpen("")
         }
@@ -107,14 +107,14 @@ const Header: React.FC<HeaderProps> = () => {
                     </Link>
                 </div>
 
-                <div className="select_header">
+                <div className="select_header" >
                     <form>
                         <div className="__select" data-state={open}>
                             <div className="__select__title"
                                  onClick={handleSelectTitle}>
                                 <div style={{ position: 'absolute', right: 30}}>☰</div>
                             </div>
-                            <div className="__select__content">
+                            <div className="__select__content" >
                                 <div>
                                     <Link hidden={hidden} style={{ textDecoration: "none", color: 'black'}} to="/about" onClick={handleOptionClick}><div className="link_select">О нас</div></Link>
                                     <Link hidden={hidden} style={{ textDecoration: "none", color: 'black'}} to="/news" onClick={handleOptionClick}><div className="link_select">Новости</div></Link>

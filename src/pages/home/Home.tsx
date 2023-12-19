@@ -6,11 +6,15 @@ import ScheduleTabDropdown from "../../components/ScheduleTabDropdown";
 import HomeGallery from "./HomeGallery";
 import NewsHome from "./NewsHome";
 import ReviewsHome from "./ReviewsHome";
+import Helmet from "react-helmet";
 interface HomeProps {}
 
 const Home: React.FC<HomeProps> = () => {
     return (
         <div>
+            <Helmet
+                title="Главная"
+            />
             <div className="page_name" style={{marginBottom: 30}}>
                 Главная
             </div>
