@@ -4,6 +4,8 @@ import "../../styles/dropdown.scss"
 import "./layot.css"
 import Header from "./Header";
 import Footer from "./Footer";
+import Helmet from "react-helmet";
+
 
 
 interface LayoutProps {
