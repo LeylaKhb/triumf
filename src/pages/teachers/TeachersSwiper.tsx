@@ -38,9 +38,6 @@ const TeachersSwiper:React.FC = () => {
                         <div className="teacher_name">
                             {teacherContent.name}
                         </div>
-                        <div className="teacher_special">
-                            {teacherContent.special}
-                        </div>
                         <div className="teacher_description">
                             {teacherContent.description}
                         </div>

@@ -5,6 +5,11 @@ import image2 from "../../static/location/image2.jpg";
 import image3 from "../../static/location/image3.jpg";
 import image4 from "../../static/location/image4.jpg";
 import image5 from "../../static/location/image5.jpg";
+import image6 from "../../static/location/image6.jpg";
+import image7 from "../../static/location/image7.jpg";
+import image8 from "../../static/location/image8.jpg";
+import image9 from "../../static/location/image9.jpg";
+
 import React from "react";
 
 const LocationGallery:React.FC = () => {
@@ -38,6 +43,18 @@ const LocationGallery:React.FC = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <img className="location_image" src={image5} alt="image5" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="location_image" src={image6} alt="image6" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="location_image" src={image7} alt="image7" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="location_image" src={image8} alt="image8" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="location_image" src={image9} alt="image9" />
             </SwiperSlide>
         </Swiper>
     )

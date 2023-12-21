@@ -11,7 +11,7 @@
 }
 
 .swiper_how_to_fond {
-    width: 450px;
+    width: 550px;
 }
 
 .title_info_location {
@@ -30,6 +30,11 @@
 .link_location {
     text-decoration: none;
     color: #0E294B;
+}
+
+.location_image {
+    width: 550px;
+    height: 370px;
 }
 
 @media screen and (max-width: 920px) {

@@ -2,7 +2,6 @@ import React from 'react';
 import "./home.css"
 
 import "swiper/css/autoplay"
-import ScheduleTabDropdown from "../../components/ScheduleTabDropdown";
 import HomeGallery from "./HomeGallery";
 import NewsHome from "./NewsHome";
 import ReviewsHome from "./ReviewsHome";
@@ -28,7 +27,6 @@ const Home: React.FC<HomeProps> = () => {
                         Расписание
                     </div>
                 </div>
-                <ScheduleTabDropdown />
             </div>
         </div>
     );

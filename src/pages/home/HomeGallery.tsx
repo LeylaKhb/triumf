@@ -17,7 +17,7 @@ const HomeGallery:React.FC<HomeGalleryProps> = () => {
             style={{marginLeft: 0, width: '100vw', display: 'flex', justifyContent: "center", alignItems: 'center', marginBottom: 90}}
             slidesPerView={1}
             autoplay={{
-                delay: 3000,
+                delay: 3500,
                 disableOnInteraction: false
             }}
 
