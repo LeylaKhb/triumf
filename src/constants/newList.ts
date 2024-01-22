@@ -21,7 +21,16 @@ import post8 from "../static/news/post8.webp"
 import post9 from "../static/news/post9.webp"
 import post10 from "../static/news/post10.webp"
 import post11 from "../static/news/post11.webp"
+import post12 from "../static/news/post12.png"
 export const news = [
+    {
+        id: 12,
+        link: "post/12",
+        image: post12,
+        date: ' 28 авг. 2024 г.',
+        title: 'ЕГЭ 2024',
+        brief: "Краткое описание..."
+    },
     // {
     //     link: "/students/2023",
     //     image: students2023_all,
