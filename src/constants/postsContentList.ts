@@ -19,6 +19,8 @@ import post10_2 from "../static/posts/post10_2.webp"
 import post10_3 from "../static/posts/post10_3.webp"
 import post10_4 from "../static/posts/post10_4.webp"
 import post10_5 from "../static/posts/post10_5.webp"
+import post12 from "../static/posts/post12.png"
+import post12_1 from "../static/posts/post12_1.png"
 
 export const postsContent = [
     {
@@ -160,6 +162,13 @@ export const postsContent = [
             "Историю сдавали 2 человека. Их результаты 60 и 58 баллов.",
         images: [post11],
     },
+    {
+        id: 12,
+        title: 'ЕГЭ 2024',
+        content: "Результаты ЕГЭ 2024!!\nВсе сдали на 100 баллов!\nВсе большие молодцы!",
+        images: [post12, post12_1],
+    },
+
 
 
 ]
